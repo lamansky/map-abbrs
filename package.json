@@ -1,0 +1,49 @@
+{
+  "name": "map-abbrs",
+  "version": "1.0.0",
+  "description": "Creates a function that accepts specified strings (or abbreviations thereof) and returns corresponding specified output.",
+  "keywords": [
+    "map",
+    "normalize",
+    "abbr",
+    "abbrs",
+    "abbrev",
+    "abbrevs",
+    "abbreviation",
+    "abbreviations",
+    "abbreviate",
+    "command line",
+    "console",
+    "arguments",
+    "dictionary"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/map-abbrs",
+  "repository": "lamansky/map-abbrs",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "2": "^2.0.0",
+    "otherwise": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
